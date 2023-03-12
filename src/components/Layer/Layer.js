@@ -5,10 +5,15 @@ import Footer from "../Footer/Footer";
 
 export const Layer = ({ children }) => {
   return (
-    <div className={styles.layer}>
-      <Header className={styles.header} />
-      <div className={styles.maincontent}>{children}</div>
-      <Footer />
-    </div>
+    <>
+      <div className={styles.layer}>
+        <Header className={styles.header} />
+        <div className={styles.maincontent}>{children}</div>
+        <Footer />
+      </div>
+      <div className={styles.redBoll}></div>
+      <div className={styles.radialBG}></div>
+      <div className={styles.redBoll_sm}></div>
+    </>
   );
 };

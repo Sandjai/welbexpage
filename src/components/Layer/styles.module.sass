@@ -7,28 +7,61 @@
     justify-content: space-between
 .maincontent
     flex-grow: 1
+.redBoll, .redBoll_sm
+    position: absolute
+    opacity: .7
 
-// .radialBG
-//     position: absolute
-//     top: 400px
-//     left: -150px
-//     width: 311px
-//     height: 311px
-//     background: radial-gradient(311px circle at 102px 450px, $brown_light 100%, transparent)
-//     opacity: 0.5
-//     filter: blur(196px)
+.redBoll
+    background-image: url('../../assets/images/red_ball_lg.png')
+
+.redBoll_sm
+    background-image: url('../../assets/images/red_ball_sm.png')
 
 @media screen and (min-width: 1160px)
     .layer
         width: 1140px
 @media screen and (min-width: 961px)
     .layer
-        background: repeating-linear-gradient(90deg, $brown, $brown 65px, $black 65px, $black 95px)
+        background: repeating-linear-gradient(90deg, $brown, $brown 70px, $black 70px, $black 100px)
     .header
         margin: 57px 16px 0 16px
+    .radialBG
+        position: absolute
+        top: 50px
+        left: -300px
+        width: 650px
+        height: 650px
+        background: radial-gradient(311px circle at 330px 300px, $brown_light 20%, transparent)
+        opacity: 0.5
+        filter: blur(196px)
+    .redBoll
+        width: 117px
+        height: 117px
+        top: 37px
+        left: 22rem
+
+    .redBoll_sm
+        width: 62px
+        height: 62px
+        top: 30rem
+        left: 37rem
 
 @media screen and (max-width: 960px)
     .layer
         background: repeating-linear-gradient(90deg, $brown, $brown 30px, $black 30px, $black 45px)
     .header
         margin-top: 1rem
+        margin-bottom: 1rem
+    .redBoll
+        width: 117px
+        height: 117px
+        top: 33rem
+        left: 1rem
+        filter: blur(7px)
+
+    .redBoll_sm
+        width: 62px
+        height: 62px
+        top: 22rem
+        right: 0rem
+        filter: blur(5px)
