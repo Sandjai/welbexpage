@@ -16,10 +16,16 @@
         & .colorText
             font-family: $font__inter_Bl
             font-size: 48px
+    .col1 .colorText,.col2 .colorText
+        background-color: $orange
+        background-image: linear-gradient(90deg, $orange, $red)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
     .col2
         & .colorText
             font-family: $font__inter_Bo
             font-size: 18px
+            text-transform: uppercase
         &__title
             font-family: $font__inter_M
             font-size: 18px
