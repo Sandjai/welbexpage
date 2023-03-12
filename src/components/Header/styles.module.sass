@@ -1,0 +1,38 @@
+@import './../../variables'
+.root
+
+    & p
+        color: $grey
+        margin-top: 10px
+
+.logoWrap
+    width: 165px
+    font-family: $font__montserrat
+    font-size: 10px
+
+.logo
+    height: 24px
+    width: 140px
+    transform: translateY(-15%)
+
+.menu
+    flex-grow: 1
+    &> *
+        margin: 0px 15px
+.icon
+    width: 20px
+.icon, .tel
+    height: 20px
+    margin: 0 15px
+
+.menu, .tel
+    font-family: $font__inter_R
+    font-size: 16px
+
+@media screen and (max-width: 960px)
+    .menu_mob
+        display: flex
+        justify-content: space-around
+@media screen  and (min-width: 961px)
+    .root
+        display: flex
