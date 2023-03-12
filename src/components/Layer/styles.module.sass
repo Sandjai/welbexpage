@@ -1,8 +1,6 @@
 @import './../../variables'
 .layer
-
     min-height: 100vh
-
     display: flex
     flex-direction: column
     margin: 0 auto
@@ -24,9 +22,13 @@
     .layer
         width: 1140px
 @media screen and (min-width: 961px)
+    .layer
+        background: repeating-linear-gradient(90deg, $brown, $brown 65px, $black 65px, $black 95px)
     .header
         margin: 57px 16px 0 16px
 
 @media screen and (max-width: 960px)
+    .layer
+        background: repeating-linear-gradient(90deg, $brown, $brown 30px, $black 30px, $black 45px)
     .header
         margin-top: 1rem
