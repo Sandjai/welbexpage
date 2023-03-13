@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/welbexpage/static/css/main.fece7544.css",
+    "main.css": "/welbexpage/static/css/main.7fb61f30.css",
     "main.js": "/welbexpage/static/js/main.25f40939.js",
     "static/media/Inter-Black.ttf": "/welbexpage/static/media/Inter-Black.143c28420846d45c5834.ttf",
     "static/media/Inter-Bold.ttf": "/welbexpage/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
@@ -9,11 +9,11 @@
     "static/media/Montserrat-Regular.ttf": "/welbexpage/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
     "static/media/red_ball_lg.png": "/welbexpage/static/media/red_ball_lg.f626c42b96919b0f6e75.png",
     "index.html": "/welbexpage/index.html",
-    "main.fece7544.css.map": "/welbexpage/static/css/main.fece7544.css.map",
+    "main.7fb61f30.css.map": "/welbexpage/static/css/main.7fb61f30.css.map",
     "main.25f40939.js.map": "/welbexpage/static/js/main.25f40939.js.map"
   },
   "entrypoints": [
-    "static/css/main.fece7544.css",
+    "static/css/main.7fb61f30.css",
     "static/js/main.25f40939.js"
   ]
 }
