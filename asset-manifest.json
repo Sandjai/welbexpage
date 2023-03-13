@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.3f90c816.css",
-    "main.js": "/static/js/main.309b4ae4.js",
-    "static/media/Inter-Black.ttf": "/static/media/Inter-Black.143c28420846d45c5834.ttf",
-    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
-    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
-    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
-    "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
-    "static/media/red_ball_lg.png": "/static/media/red_ball_lg.f626c42b96919b0f6e75.png",
-    "index.html": "/index.html",
-    "main.3f90c816.css.map": "/static/css/main.3f90c816.css.map",
-    "main.309b4ae4.js.map": "/static/js/main.309b4ae4.js.map"
+    "main.css": "/welbexpage/static/css/main.de53b7e6.css",
+    "main.js": "/welbexpage/static/js/main.309b4ae4.js",
+    "static/media/Inter-Black.ttf": "/welbexpage/static/media/Inter-Black.143c28420846d45c5834.ttf",
+    "static/media/Inter-Bold.ttf": "/welbexpage/static/media/Inter-Bold.88fa7ae373b07b41ecce.ttf",
+    "static/media/Inter-Medium.ttf": "/welbexpage/static/media/Inter-Medium.6dcbc9bed1ec438907ee.ttf",
+    "static/media/Inter-Regular.ttf": "/welbexpage/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Montserrat-Regular.ttf": "/welbexpage/static/media/Montserrat-Regular.ceb11275ab638627a643.ttf",
+    "static/media/red_ball_lg.png": "/welbexpage/static/media/red_ball_lg.f626c42b96919b0f6e75.png",
+    "index.html": "/welbexpage/index.html",
+    "main.de53b7e6.css.map": "/welbexpage/static/css/main.de53b7e6.css.map",
+    "main.309b4ae4.js.map": "/welbexpage/static/js/main.309b4ae4.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f90c816.css",
+    "static/css/main.de53b7e6.css",
     "static/js/main.309b4ae4.js"
   ]
 }
