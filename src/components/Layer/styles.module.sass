@@ -17,6 +17,16 @@
 .redBoll_sm
     background-image: url('../../assets/images/red_ball_sm.png')
 
+.header, .footer, .maincontent
+    animation: appear 1s ease-out
+@keyframes appear
+    0%
+        opacity: 0
+        transform: translateY(-10%)
+    100%
+        opacity: 1
+        transform: translateY(0%)
+
 @media screen and (min-width: 1160px)
     .layer
         width: 1140px

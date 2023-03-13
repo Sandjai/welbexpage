@@ -6,10 +6,11 @@ import Telegram from "../../assets/images/telegram.png";
 import Whatsup from "../../assets/images/whatsup.png";
 import tel from "../../assets/images/phone.png";
 import { MenuItems } from "../Menu/MenuItems";
+import classNames from "classnames";
 
-const Footer = () => {
+const Footer = ({ className }) => {
   return (
-    <div className={styles.footer}>
+    <div className={classNames(className, styles.footer)}>
       <div className={styles.col1}>
         <div className={styles.title}>О компании</div>
         <MenuItems className={styles.about} items={aboutItems} />

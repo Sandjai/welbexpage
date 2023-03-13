@@ -9,7 +9,7 @@ export const Layer = ({ children }) => {
       <div className={styles.layer}>
         <Header className={styles.header} />
         <div className={styles.maincontent}>{children}</div>
-        <Footer />
+        <Footer className={styles.footer} />
       </div>
       <div className={styles.redBoll}></div>
       <div className={styles.radialBG}></div>
